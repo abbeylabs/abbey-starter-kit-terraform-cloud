@@ -4,7 +4,7 @@ This Quickstart is an example for how to use Abbey Labs and set up a Grant Kit. 
 
 ## Usage
 
-Visit this [Starter Kit's docs](https://docs.abbey.io/getting-started/quickstart) for a short usage walkthrough.
+Visit this [Starter Kit's docs](https://docs.abbey.io/integrations/terraform/terraform-cloud) for a short usage walkthrough.
 
 ## :books: Learn More
 

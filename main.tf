@@ -1,10 +1,9 @@
 terraform {
-  backend "http" {
-    address        = "https://api.abbey.io/terraform-http-backend"
-    lock_address   = "https://api.abbey.io/terraform-http-backend/lock"
-    unlock_address = "https://api.abbey.io/terraform-http-backend/unlock"
-    lock_method    = "POST"
-    unlock_method  = "POST"
+  cloud {
+    organization = "replace-me-with-organization" # CHANGEME
+    workspaces {
+      name = "replace-me-with-workspace" # CHANGEME
+    }
   }
 
   required_providers {
